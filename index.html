@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Jaanuuu ♡</title>
+<style>
+  :root{
+    --ink:#38252d; --muted:#806b72; --rose:#b97883; --cream:#fffaf7;
+    --gold:#c6a36b; --line:rgba(111,72,78,.16);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; color:var(--ink); font-family:Georgia,"Times New Roman",serif;
+    background:
+      radial-gradient(ellipse at 12% 8%,rgba(220,176,164,.23),transparent 34%),
+      radial-gradient(ellipse at 90% 30%,rgba(203,177,139,.18),transparent 30%),
+      linear-gradient(145deg,#fffaf7,#f8eeeb 58%,#f4e8e4);
+    min-height:100vh;
+  }
+  button{font:inherit}
+  .wrap{width:min(1080px,92%);margin:auto}
+  .topbar{display:flex;justify-content:space-between;align-items:center;padding:24px 0;color:var(--muted);font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+  .monogram{width:36px;height:36px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:17px;letter-spacing:0}
+  .hero{min-height:76vh;display:grid;place-items:center;text-align:center;padding:48px 0 70px;position:relative}
+  .eyebrow{color:var(--rose);letter-spacing:.28em;text-transform:uppercase;font:11px Arial,sans-serif}
+  h1{font-weight:400;font-size:clamp(52px,10vw,104px);line-height:.98;margin:22px 0 18px;letter-spacing:-.055em}
+  h1 em{color:var(--rose);font-weight:400}
+  .subtitle{font-size:clamp(16px,2.5vw,20px);line-height:1.8;color:var(--muted);max-width:570px;margin:0 auto}
+  .rule{width:72px;height:1px;background:var(--gold);margin:30px auto}
+  .button{border:1px solid var(--rose);background:var(--rose);color:white;padding:14px 24px;border-radius:2px;letter-spacing:.08em;text-transform:uppercase;font:11px Arial,sans-serif;cursor:pointer;transition:.25s}
+  .button:hover{background:#9e626e;transform:translateY(-2px)}
+  .button.ghost{background:transparent;color:var(--rose)}
+  .scroll{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);font:10px Arial,sans-serif;letter-spacing:.2em;color:#a68c8c;text-transform:uppercase}
+  section{padding:68px 0}
+  .section-head{text-align:center;margin-bottom:34px}
+  .section-head h2{font-size:clamp(30px,5vw,45px);font-weight:400;margin:10px 0}
+  .section-head p{color:var(--muted);font:14px/1.7 Arial,sans-serif}
+  .letter-card{max-width:760px;margin:auto;background:rgba(255,255,255,.65);border:1px solid var(--line);padding:clamp(24px,6vw,56px);box-shadow:0 22px 70px rgba(95,60,66,.08);position:relative}
+  .letter-card:before,.letter-card:after{content:"";position:absolute;width:34px;height:34px;border-color:var(--gold);opacity:.65}
+  .letter-card:before{top:12px;left:12px;border-top:1px solid;border-left:1px solid}
+  .letter-card:after{bottom:12px;right:12px;border-bottom:1px solid;border-right:1px solid}
+  .letter-card p{font-size:18px;line-height:1.95;color:#665158}
+  .signature{font-style:italic;color:var(--rose);font-size:25px;margin-top:26px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .reason{background:rgba(255,255,255,.56);border:1px solid var(--line);padding:25px 22px;min-height:178px;transition:.25s}
+  .reason:hover{transform:translateY(-5px);box-shadow:0 15px 35px rgba(95,60,66,.08)}
+  .reason .num{color:var(--gold);font:11px Arial,sans-serif;letter-spacing:.18em}
+  .reason h3{font-size:22px;font-weight:400;margin:18px 0 9px}
+  .reason p{font:13px/1.7 Arial,sans-serif;color:var(--muted);margin:0}
+  .surprise{max-width:700px;text-align:center;margin:auto;padding:34px 24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .surprise .big-heart{font-size:38px;color:var(--rose);animation:pulse 1.8s infinite}
+  @keyframes pulse{50%{transform:scale(1.13)}}
+  .surprise-message{font-size:clamp(21px,4vw,31px);line-height:1.5;min-height:95px;margin:18px auto;color:#62454e}
+  .photo-area{max-width:760px;margin:auto;text-align:center}
+  .photo-frame{min-height:180px;border:1px dashed rgba(185,120,131,.55);background:rgba(255,255,255,.35);display:grid;place-items:center;padding:22px;color:var(--muted);font:13px/1.7 Arial,sans-serif}
+  .photo-frame img{max-width:100%;max-height:420px;object-fit:contain}
+  input[type=file]{display:none}
+  .upload-label{display:inline-block;margin-top:16px}
+  .footer{text-align:center;padding:55px 15px 38px;color:var(--muted);font:12px/1.8 Arial,sans-serif}
+  .footer .last{font:italic 23px Georgia,serif;color:var(--rose);margin-bottom:10px}
+  .sparkle{color:var(--gold)}
+  @media(max-width:700px){.grid{grid-template-columns:1fr}.hero{min-height:70vh}.topbar{padding:18px 0}.reason{min-height:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <span>A little something, just for you</span>
+    <span class="monogram">M ♡</span>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div>
+        <div class="eyebrow">A note from my heart</div>
+        <h1>For <em>My kuchpuchuuuu</em></h1>
+        <p class="subtitle">In a world full of ordinary moments, you are my favourite kind of magic.</p>
+        <div class="rule"></div>
+        <button class="button" onclick="document.getElementById('letter').scrollIntoView()">Open your surprise</button>
+      </div>
+      <div class="scroll">A little love story · scroll down</div>
+    </section>
+
+    <section id="letter">
+      <div class="section-head">
+        <div class="eyebrow">Chapter one</div>
+        <h2>Words I want you to keep</h2>
+        <p>For the days you need a reminder of how loved you are.</p>
+      </div>
+      <article class="letter-card">
+        <p>My Jaanuuu,</p>
+        <p>I don't know ki tu kb itna beautiful part bn gya meri life ka, but I'm so grateful you did. You make the little things feel special — a simple conversation, a silly joke, or just knowing you're there.</p>
+        <p>I may not always find the perfect words, but I hope you never forget this: I appreciate you, I believe in you, and I'm always cheering for you. I don't need every day to be perfect. I just want us to keep choosing each other, learning together, laughing together, and making memories along the way.</p>
+        <p>If I had to choose again, in every lifetime and every version of this story, I'd still look for you.Thank youu jaanuu</p>
+        <div class="signature">Always yours ♡</div>
+      </article>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div class="eyebrow">Chapter two</div>
+        <h2>Little things I adore about you</h2>
+        <p>Six reasons — and still not nearly enough.</p>
+      </div>
+      <div class="grid">
+        <article class="reason"><div class="num">01 / YOUR HEART</div><h3>Your kindness</h3><p>Jse tu meri care krta h hmeshaa choti se choti chiz ka bhi dhyan rkhta h.</p></article>
+        <article class="reason"><div class="num">02 / YOUR SMILE</div><h3>Your smile</h3><p>Ye toh sbse jyada pyarii h.One of my favourite view.</p></article>
+        <article class="reason"><div class="num">03 / OUR TALKS</div><h3>Our conversations</h3><p>Baat krke bhot hi jyada acha lgta h.Mnn krta h sb kuch bta duu.</p></article>
+        <article class="reason"><div class="num">04 / YOUR SOUL</div><h3>Being yourself</h3><p>Bhot acha lgta h ki tu apne baare m sb btata h.Always grateful</p></article>
+        <article class="reason"><div class="num">05 / YOUR SUPPORT</div><h3>How you show up</h3><p>Tu feel krvata h ki ha m akeli  nhii hu hmesha mere sath h.</p></article>
+        <article class="reason"><div class="num">06 / MY FAVOURITE</div><h3>Simply you</h3><p>Koi bda reason nhiii chaiye. You're my favourite person.</p></article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div class="eyebrow">Chapter three</div>
+        <h2>A tiny surprise</h2>
+        <p>Tap the button whenever you need a little extra affection.</p>
+      </div>
+      <div class="surprise">
+        <div class="big-heart">♡</div>
+        <div class="surprise-message" id="flirtyText">Jannuuu… if you are here right now,Mnn krta h bhot jor se gale lga luu or chodu hi na. ♡</div>
+        <button class="button ghost" onclick="newMessage()">One more, please</button>
+      </div>
+    </section>
+
+    
+
+    <section>
+      <div class="surprise">
+        <div class="eyebrow">One last thing</div>
+        <div class="surprise-message">Koii baat nhii chahe kitni bhi ldayi ho pr hmesha ek dusre ko choose krna h.Ladayi ke  baad toh or jyada pyaar aata h.Pr kbhi bhi jyada serious nhii lena h <span class="sparkle">✧</span></div>
+        <div class="signature">You + Me, one day at a time.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="last">Made with all my love ♡</div>
+    A little corner of the internet that belongs to us.
+  </footer>
+</div>
+<script>
+  const messages = [
+    "Agar abhi pass ho toh unlimited pyarii dedu jii aapko toh. ♡",
+    "Official notice: Your baby wants your hugs,cuddles and unlimited pyarii hi pyarii. 😘",
+    "M padhne pe focus kr rhii thi pr ek dm se aapki smile yaad aagyiiii. So… that's your fault. ♡",
+    "If hugs could travel through screens, you'd be getting the biggest one right now.",
+    "Just making ki thodi si smile aa jaye mere kuchupuchuuu ke face pr. ✨",
+    "Meri favourite notification mere jaanuu hi rehta h hmeshaa. 💌"
+  ];
+  let last = -1;
+  function newMessage(){
+    let next;
+    do { next = Math.floor(Math.random()*messages.length); } while(next===last);
+    last=next;
+    document.getElementById("flirtyText").textContent=messages[next];
+  }
+  document.getElementById("photoUpload").addEventListener("change",function(e){
+    const file=e.target.files && e.target.files[0];
+    if(!file) return;
+    const reader=new FileReader();
+    reader.onload=function(event){
+      const frame=document.getElementById("photoFrame");
+      frame.innerHTML="";
+      const img=document.createElement("img");
+      img.src=event.target.result;
+      img.alt="Your favourite memory";
+      frame.appendChild(img);
+    };
+    reader.readAsDataURL(file);
+  });
+</script>
+</body>
+</html>
